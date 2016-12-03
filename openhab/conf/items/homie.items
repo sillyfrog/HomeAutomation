@@ -1,0 +1,2 @@
+Switch mySwitch "My Switch" (lights,lamp,bedroom) [ "Lighting" ] {mqtt=">[mosquitto:devices/devid/light/on/set:command:ON:false],>[mosquitto:devices/devid/light/on/set:command:OFF:true]"} 
+

@@ -1,0 +1,6 @@
+sitemap demo label="Main Menu"
+{
+	Frame {
+        Switch item=mySwitch
+	}
+}
